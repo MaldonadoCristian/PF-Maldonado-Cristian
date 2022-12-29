@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    overflow-x: hidden;
+  }
+/*--header--*/   
+.brand-logo img
+{max-height:50px;
+max-width:80px;
+margin: 10%;
+}
+
+.nome-empresa{
+font-size: 30px;
+font-family: 'Special Elite', cursive;
+}
+
+.navbar {
+font-size: 15px;}
+
+/*-- Menu--*/
+main img{
+max-width: 500px;
+max-height: 500px;
+background-color: blue;
+}
+
+
+/*--Quienes Somos--*/
+.quienes-somos img
+{max-width: 400px;
+max-height: 500px;
+margin: 0 auto;}
+
+.quienes-somos h2
+{font-family: monospace;
+font-size: 50px;}
+
+.quienes-somos hr {   
+    color: rgb(10, 10, 10);
+    background-image: linear-gradient(to right, transparent, rgb(15, 15, 15), transparent);  
+    height: 2px;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.quienes-somos p
+{font-family: monospace;
+font-size: 15px;
+text-align: justify;}
+
+.quienes-somos    
+{ display: grid;
+grid-template-columns: 1fr;
+max-width: 1000px;
+grid-gap: 20px;
+margin: 0 auto;
+padding: 10px;
+}
+
+/*--Servicios--*/
+.servicios{
+background-color:blue;
+}
+.servicios h2
+{margin:20px;
+font-family: monospace;
+font-size: 50px;}
+
+.servicios hr {
+color: rgb(10, 10, 10);
+background-image: linear-gradient(to right, transparent, rgb(15, 15, 15), transparent);  
+height: 2px;
+max-width: 500px;
+margin-bottom: 10px;}
+
+.card-content {
+font-family: monospace;
+font-size: 15px;
+text-align: justify;    
+}
+
+/*-- trabajos--*/
+.port h2{margin:20px;
+font-family: monospace;
+font-size: 50px;}
+
+.port hr{
+color: rgb(10, 10, 10);
+    background-image: linear-gradient(to right, transparent, rgb(15, 15, 15), transparent);  
+    height: 2px;
+    max-width: 500px;
+    margin-bottom: 10px;}
+ 
+/*-- Contacto--*/
+
+.contacto h2{
+margin:20px;
+font-family: monospace;
+font-size: 50px;} 
+
+.contacto hr{
+color: black;
+    background-image: linear-gradient(to right, transparent, rgb(15, 15, 15), transparent);  
+    height: 2px;
+    max-width: 500px;
+    margin-bottom: 10px;}
+
+/*--mobile first--*/
+ /*--SMARTPHONE--*/
+
+@media screen and (min-width:750px) {
+
+.quienes-somos    
+{ display: grid;
+grid-template-columns: 1fr 1fr;
+max-width: 1000px;
+grid-gap: 50px;
+margin: 0 auto;
+padding: 10px;
+}
+.quienes-somos img
+{max-width: 650px;
+max-height: 600px;
+margin: 0 auto;}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    overflow-x: hidden;
+  }
+/*--header--*/   
+.brand-logo img
+{max-height:50px;
+max-width:80px;
+margin: 10%;
+}
+
+.nome-empresa{
+font-size: 30px;
+font-family: 'Special Elite', cursive;
+}
+
+.navbar {
+font-size: 15px;}
+
+/*-- Menu--*/
+main img{
+max-width: 500px;
+max-height: 500px;
+}
+
+
+/*--Quienes Somos--*/
+.quienes-somos img
+{max-width: 400px;
+max-height: 500px;
+margin: 0 auto;}
+
+.quienes-somos h2
+{font-family: monospace;
+font-size: 50px;}
+
+.quienes-somos hr {   
+    color: rgb(10, 10, 10);
+    background-image: linear-gradient(to right, transparent, rgb(15, 15, 15), transparent);  
+    height: 2px;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.quienes-somos p
+{font-family: monospace;
+font-size: 15px;
+text-align: justify;}
+
+.quienes-somos    
+{ display: grid;
+grid-template-columns: 1fr;
+max-width: 1000px;
+grid-gap: 20px;
+margin: 0 auto;
+padding: 10px;
+}
+
+/*--servicios--*/
+.servicios{
+background-color: blue;
+}
+.servicios h2
+{margin:20px;
+font-family: monospace;
+font-size: 50px;}
+
+.servicios hr {
+color: rgb(10, 10, 10);
+background-image: linear-gradient(to right, transparent, rgb(15, 15, 15), transparent);  
+height: 2px;
+max-width: 500px;
+margin-bottom: 10px;}
+
+.card-content {
+font-family: monospace;
+font-size: 15px;
+text-align: justify;    
+}
+
+/*-- trabajos--*/
+.port h2{margin:20px;
+font-family: monospace;
+font-size: 50px;}
+
+.port hr{
+color: rgb(10, 10, 10);
+    background-image: linear-gradient(to right, transparent, rgb(15, 15, 15), transparent);  
+    height: 2px;
+    max-width: 500px;
+    margin-bottom: 10px;}
+ 
+/*-- Contacto--*/
+.contacto h2{
+margin:20px;
+font-family: monospace;
+font-size: 50px;} 
+
+.contacto hr{
+color:lightblue;
+    background-image: linear-gradient(to right, transparent, rgb(15, 15, 15), transparent);  
+    height: 2px;
+    max-width: 500px;
+    margin-bottom: 10px;}
+
+/*--mobile first--*/
+ /*--SMARTPHONE--*/
+
+@media screen and (min-width:750px) 
